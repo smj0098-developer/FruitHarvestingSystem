@@ -1,5 +1,5 @@
 # FruitHarvestingSystem
-A fruit harvesting system based on a modified version of Faster RCNN  `object detection` `deep learning` architecture<br>
+A fruit harvesting system based on a modified version of Faster RCNN  `object detection` `deep learning` architecture<br><br>
 In this implementation, we are using Tensorflow/Keras frameworks.<br><br>
 This work is still `incomplete`.<br>
 We have already done the data `preprocessing` part and implemented the Region Proposal Network (RPN) in the original `FasterRCNN` paper: https://arxiv.org/abs/1506.01497v3 .<br>
