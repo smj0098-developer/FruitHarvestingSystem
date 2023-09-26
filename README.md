@@ -8,7 +8,7 @@ We used `pre-trained ResNet50` weights for transfer learning as the backbone of 
 Here is a link to the weights: https://github.com/fchollet/deep-learning-models/releases/download/v0.2/resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5 <br><br>
 
 
-Next, we are going to use this Region Proposal Network as an attention mechanism for the `regression` and `classification` heads as in the original paper.<br>
+Next, we are going to use this Region Proposal Network to generate ROIs for the `regression` and `classification` heads as in the original paper.<br>
 Then another head, called the `Picking Point Estimator` head, will be added to the model.<br><br>
 This is the dataset currently being used: https://strawdi.github.io/
 
